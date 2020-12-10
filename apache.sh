@@ -1,3 +1,3 @@
 #!/bin/bash
-apt-get install apache2 -y
-systemctl start apache2
+sudo apt-get install apache2 -y
+sudo systemctl start apache2
