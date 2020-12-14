@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo -S
-sudo apt-get install apache2 -y
-sudo systemctl start apache2
+sudo apt install apache2 -y
+echo "beheerder" | sudo -S service apache2 start
